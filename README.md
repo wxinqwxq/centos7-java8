@@ -9,5 +9,7 @@ The JAVA_HOME environment variable will be set and java will be in the path.
 
 Example run:
 
-    docker run --rm wxinqwxq/centos-java java -version
+    docker pull centos:7.4.1708
+    docker pull wxinqwxq/centos7-java8:jre8
+    docker run -d wxinqwxq/centos7-java8:jre8 java -version
 
