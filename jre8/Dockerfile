@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:7.4.1708
 
 # Upgrading system
 RUN yum -y update && \
