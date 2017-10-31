@@ -8,4 +8,4 @@ RUN yum -y update && \
     rm -f /tmp/jdk-8-linux-x64.rpm && \
     yum clean all
 
-RUN java -version
+ENV JAVA_HOME /usr/java/latest
